@@ -38,7 +38,8 @@ async function init () {
       sslClientCertList: safeParse(get('sslClientCertList')),
       sslExtraCaCerts: get('sslExtraCaCerts'),
       requestAgents: safeParse(get('requestAgents')),
-      cookieJar: get('cookieJar')
+      cookieJar: get('cookieJar'),
+      verbose: core.getInput('verbose') === 'true'
     }
 
     if (options.collection.match(idRegex)) {
