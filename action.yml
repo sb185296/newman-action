@@ -1,4 +1,4 @@
-name: 'Newman Action'
+name: 'Newman Action copy'
 description: 'Run Postman collections via Newman'
 author: 'Matt Ball'
 branding:
